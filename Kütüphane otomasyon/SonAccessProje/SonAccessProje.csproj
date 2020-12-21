@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0857F075-51BF-41F8-B3A4-CE3DC8495030}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SonAccessProje</RootNamespace>
+    <AssemblyName>SonAccessProje</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>SonAccessProje.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\..\..\..\Desktop\zedgraph_dll_v515\zedgraph_dll_v5.1.5\ZedGraph.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlisGirisKontrolx.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlisGirisKontrolx.Designer.cs">
+      <DependentUpon>AlisGirisKontrolx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlımIade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlımIade.Designer.cs">
+      <DependentUpon>AlımIade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaslangicEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaslangicEkrani.Designer.cs">
+      <DependentUpon>BaslangicEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapAra.Designer.cs">
+      <DependentUpon>KitapAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KitapKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapKayit.Designer.cs">
+      <DependentUpon>KitapKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="my_graph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="my_graph.Designer.cs">
+      <DependentUpon>my_graph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciKayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciKayit.Designer.cs">
+      <DependentUpon>OgrenciKayit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AlisGirisKontrolx.resx">
+      <DependentUpon>AlisGirisKontrolx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlımIade.resx">
+      <DependentUpon>AlımIade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaslangicEkrani.resx">
+      <DependentUpon>BaslangicEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapAra.resx">
+      <DependentUpon>KitapAra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapKayit.resx">
+      <DependentUpon>KitapKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="my_graph.resx">
+      <DependentUpon>my_graph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciKayit.resx">
+      <DependentUpon>OgrenciKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Businesss\Businesss.csproj">
+      <Project>{7A748D9C-878D-472C-A07A-6C23ACF17602}</Project>
+      <Name>Businesss</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess1\DataAccess.csproj">
+      <Project>{DE6AC3AA-E84B-43BB-8937-AF839A2822BD}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{F3C25CF0-DBF1-4141-8CDD-7224C44898B7}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

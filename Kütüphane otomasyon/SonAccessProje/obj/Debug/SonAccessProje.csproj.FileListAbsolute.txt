@@ -1,0 +1,13 @@
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\obj\Debug\SonAccessProje.csprojAssemblyReference.cache
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\obj\Debug\SonAccessProje.Form1.resources
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\obj\Debug\SonAccessProje.Properties.Resources.resources
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\obj\Debug\SonAccessProje.csproj.GenerateResource.cache
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\obj\Debug\SonAccessProje.csproj.CoreCompileInputs.cache
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\bin\Debug\SonAccessProje.exe.config
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\bin\Debug\SonAccessProje.exe
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\bin\Debug\SonAccessProje.pdb
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\bin\Debug\DataAccess.dll
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\bin\Debug\DataAccess.pdb
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\obj\Debug\SonAccessProje.csproj.CopyComplete
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\obj\Debug\SonAccessProje.exe
+C:\Users\baran\source\repos\SonAccessProje\SonAccessProje\obj\Debug\SonAccessProje.pdb

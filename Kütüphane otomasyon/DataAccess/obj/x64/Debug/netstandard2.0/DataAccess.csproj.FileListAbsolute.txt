@@ -1,0 +1,16 @@
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\DataAccess.dll
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\System.Windows.Forms.dll
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\System.Security.dll
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\Accessibility.dll
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\bin\x64\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\obj\x64\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\obj\x64\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\obj\x64\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\obj\x64\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\obj\x64\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\obj\x64\Debug\netstandard2.0\DataAccess.dll
+C:\Users\baran\source\repos\SonAccessProje\DataAccess\obj\x64\Debug\netstandard2.0\DataAccess.pdb

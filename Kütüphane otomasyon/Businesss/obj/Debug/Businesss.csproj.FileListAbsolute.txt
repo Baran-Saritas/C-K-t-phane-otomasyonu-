@@ -1,0 +1,11 @@
+C:\Users\baran\source\repos\SonAccessProje\Businesss\bin\Debug\Businesss.dll
+C:\Users\baran\source\repos\SonAccessProje\Businesss\bin\Debug\Businesss.pdb
+C:\Users\baran\source\repos\SonAccessProje\Businesss\bin\Debug\DataAccess1.dll
+C:\Users\baran\source\repos\SonAccessProje\Businesss\bin\Debug\Entity.dll
+C:\Users\baran\source\repos\SonAccessProje\Businesss\bin\Debug\DataAccess1.pdb
+C:\Users\baran\source\repos\SonAccessProje\Businesss\bin\Debug\Entity.pdb
+C:\Users\baran\source\repos\SonAccessProje\Businesss\obj\Debug\Businesss.csprojAssemblyReference.cache
+C:\Users\baran\source\repos\SonAccessProje\Businesss\obj\Debug\Businesss.csproj.CoreCompileInputs.cache
+C:\Users\baran\source\repos\SonAccessProje\Businesss\obj\Debug\Businesss.csproj.CopyComplete
+C:\Users\baran\source\repos\SonAccessProje\Businesss\obj\Debug\Businesss.dll
+C:\Users\baran\source\repos\SonAccessProje\Businesss\obj\Debug\Businesss.pdb

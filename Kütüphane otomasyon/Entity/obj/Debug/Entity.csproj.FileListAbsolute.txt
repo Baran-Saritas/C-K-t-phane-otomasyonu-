@@ -1,0 +1,6 @@
+C:\Users\baran\source\repos\SonAccessProje\Entity\bin\Debug\Entity.dll
+C:\Users\baran\source\repos\SonAccessProje\Entity\bin\Debug\Entity.pdb
+C:\Users\baran\source\repos\SonAccessProje\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\baran\source\repos\SonAccessProje\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\baran\source\repos\SonAccessProje\Entity\obj\Debug\Entity.dll
+C:\Users\baran\source\repos\SonAccessProje\Entity\obj\Debug\Entity.pdb
